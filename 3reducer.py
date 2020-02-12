@@ -33,7 +33,7 @@ for line in s:
     old_value = paymentType
 
 # output the final entry when done
-r.write(thisKey + '\t' + str(thisValue)+'\n')
+r.write(thisKey + '\t' + str(count)+'\n')
 
 s.close()
 r.close()
